@@ -4,8 +4,8 @@
 #include <linux/list.h>
 //meotodo 1
 static int __init simple_init(void){
-    return 0;
     printk(KERN_INFO "Loading Module \nLab 4");
+    return 0;
 } 
 //metodo 2
 static void __exit simple_exit(void){
